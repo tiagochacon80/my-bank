@@ -1,0 +1,17 @@
+package entities;
+
+public class InterestRate extends Account {
+
+	private Double interestRate;
+	
+	public InterestRate() {
+		super();
+	}
+
+	public InterestRate(Integer number, String holder, Double balance, Double interestRate) {
+		super(number, holder, balance);
+		this.interestRate = interestRate;
+	}
+	
+	
+}

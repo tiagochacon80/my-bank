@@ -7,20 +7,9 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-		Account acc = new Account(111, "Alex Bird", 100.00);		
+		Account acc = new Account(1001, "Alex Boss", 0.0);	
+		BusinessAccount bacc = new BusinessAccount(1002, "Maria", 0.0, 500.0);
 				
-		acc.getBalance();		
-		System.out.println(acc.getBalance());
-		
-		acc.deposit(100.00);
-		System.out.println(acc.getBalance());
-		
-		BusinessAccount bac = new BusinessAccount(111, "Alex Boss", 100.00, 80.00);
-		
-		bac.deposit(100.00);
-		System.out.println(bac.getBalance());
-		bac.loan(50.00);
-		System.out.println(bac.getBalance());
 		
 
 	}
