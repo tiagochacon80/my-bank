@@ -1,0 +1,14 @@
+package application;
+
+import entities.Account;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Account acc = new Account();		
+				
+		System.out.println(acc.deposit(100.00));
+
+	}
+}

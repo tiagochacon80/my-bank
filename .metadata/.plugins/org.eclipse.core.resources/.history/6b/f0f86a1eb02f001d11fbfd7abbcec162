@@ -1,0 +1,17 @@
+package application;
+
+import entities.BusinessAccount;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Account acc = new BusinessAccount(1111, "Tiago Chacon", 100);		
+				
+		acc.getBalance();		
+		System.out.println(acc.getBalance());
+		
+		acc.deposit(100.00);
+
+	}
+}

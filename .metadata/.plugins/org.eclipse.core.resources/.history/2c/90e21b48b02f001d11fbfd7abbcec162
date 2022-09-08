@@ -1,0 +1,19 @@
+package application;
+
+import entities.Account;
+import entities.BusinessAccount;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Account acc = new Account(111, "Tiago", 100.00);		
+				
+		acc.getBalance();		
+		System.out.println(acc.getBalance());
+		
+		acc.deposit(100.00);
+		System.out.println(acc.getBalance());
+
+	}
+}
